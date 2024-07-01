@@ -13,11 +13,11 @@ I plan to make this a repository where all my engines while be created. Of cours
 Engines I plan to create or have created:
 | Status | Engine|
 | :---: | :--- |
-| -[ ] | physics engine atomic level 2d |
-| -[ ] | physics engine atomic level 3d |
-| -[ ] | physics engine planetary level 2d |
-| -[ ] | physics engine planetary level 3d |
-| -[ ] | game engine |
+| - [ ]  | physics engine atomic level 2d |
+| - [ ]  | physics engine atomic level 3d |
+| - [ ]  | physics engine planetary level 2d |
+| - [ ]  | physics engine planetary level 3d |
+| - [ ]  | game engine |
 
 ## Loader
 
