@@ -6,6 +6,10 @@ a collection of different engines for different uses
 plans for this repository
 
 I plan to make this a repository where all my engines while be created. Of course you can contribute to this repository
+- [ ] learn the basics of C++
+- [ ] start to make first simple projects in C++
+- [ ] start to make more complected projects
+- [ ] first engine
 
 
 ## Engines
