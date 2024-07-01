@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <string>
 using namespace std;
 
 int main() {
@@ -22,6 +23,6 @@ int main() {
     cout << "Your name is: " << firstName << "\n";
 
     string emp;
-    getline (cin, emp);
+    getline(cin, emp);
     return 0;
 }
