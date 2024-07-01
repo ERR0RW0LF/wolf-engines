@@ -14,10 +14,11 @@ int main() {
     cin >> x; // Get user input from the keyboard
     cout << "\n" << "Your number is: " << x << "\n"; // Display the input value
 
-    string firstName = "John ";
-    string lastName = "Doe";
-    string fullName = firstName + lastName;
-    cout << fullName;
+    string firstName;
+    cout << "Type your first name: ";
+    cin >> firstName; // get user input from the keyboard
+    cout << "Your name is: " << firstName;
+
     char emp;
     cin >> emp;
     return 0;
