@@ -12,6 +12,13 @@ int main() {
     int x;
     cout << "Type a number: "; // Type a number and press enter
     cin >> x; // Get user input from the keyboard
-    cout << "\n" << "Your number is: " << x; // Display the input value
+    cout << "\n" << "Your number is: " << x << "\n"; // Display the input value
+
+    string firstName = "John ";
+    string lastName = "Doe";
+    string fullName = firstName + lastName;
+    cout << fullName;
+    char emp;
+    cin >> emp;
     return 0;
 }
