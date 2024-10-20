@@ -17,7 +17,7 @@ fn main() {
     // a: use the push method
 
     // image height x width x 3 (RGB)
-    let mut image: Vec<Vec<Vec<u8>>> = vec![vec![vec![0; 3]; 16]; 16];
+    let image: Vec<Vec<Vec<u8>>> = vec![vec![vec![0; 3]; 16]; 16];
 
     println!("{:?}", image);
 
@@ -46,7 +46,7 @@ fn main() {
 
     // q: how do i overwrite a Vec<T>?
     // a: use the index operator
-    let mut image = [
+    let image = [
         [[0, 0, 0], [250, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], 
         [[0, 0, 0], [250, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], 
         [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], 
@@ -85,8 +85,9 @@ fn main() {
     }
     for i in 0..10 {
         print!("\n");
+        print!("{}",i);
     }
-    println!("\x1b[38;2;{};{};{}m{}\x1b[0m", r, g, b, half_element);
+    println!("\x1b[38;2;{};{};{}m{}\x1b[0m", r+255, g+255, b, half_element);
     println!("\x1b[38;2;{};{};{}mThis is colored text\x1b[0m", r, g, b);
 
     // Print text with RGB background color
