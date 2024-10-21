@@ -6,11 +6,17 @@ a collection of different engines for different uses
 plans for this repository
 
 I plan to make this a repository where all my engines while be created. Of course you can contribute to this repository
-- [ ] learn the basics of C++
-- [ ] start to make first simple projects in C++
+- [ ] learn the basics of Rust
+- [ ] start to make first simple projects in Rust
 - [ ] start to make more complected projects
 - [ ] first engine
 
+
+## Projects 
+- [x] displaying anything in the terminal 
+- [ ] a way to display images in the terminal
+- [ ] displaying a video in the terminal 
+- [ ] consistent frame rade 
 
 ## Engines
 
