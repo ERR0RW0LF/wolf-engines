@@ -1,5 +1,6 @@
 extern crate rand;
 use rand::prelude::*;
+use std::io::{self, Write};
 
 fn main() {
     let mut rng = rand::thread_rng();
@@ -79,7 +80,21 @@ fn main() {
 
     println!("r: {}\ng: {}\nb: {}", r, g, b);
 
+    // Set terminal size to 30 rows and 80 columns
+    set_terminal_size(30, 80);
+
+    // Print some text to demonstrate the new terminal size
+    for _ in 0..30 {
+        println!("This is a line of text.");
+    }
+
     // Keep the terminal open
     let mut input = String::new();
     std::io::stdin().read_line(&mut input).unwrap();
+}
+
+fn set_terminal_size(rows: u16, cols: u16) {
+    // ANSI escape code to set terminal size
+    print!("\x1b[8;{};{}t", rows, cols);
+    io::stdout().flush().unwrap();
 }
