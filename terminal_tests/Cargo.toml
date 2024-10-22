@@ -5,3 +5,4 @@ edition = "2021"
 
 [dependencies]
 rand = { version = "0.8.5", features = ["small_rng"] }
+crossterm = "0.28.1"
