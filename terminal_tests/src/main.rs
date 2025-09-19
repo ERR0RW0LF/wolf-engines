@@ -122,7 +122,9 @@ fn main() {
             }
             print!("\n");
         }*/
+        let max_size = crossterm::terminal::size().unwrap();
 
+        let (width, height) = (max_size.0, max_size.1*2);
         // 100 frames of a rectangle moving across the screen
         for i in 0..111 {
             let mut image = empty_image(width, height);
